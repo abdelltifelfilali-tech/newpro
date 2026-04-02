@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* use 8px system  */
+*{
+    /* box-sizing: border-box; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px ;
+    width: 320px;
+    height: 580px;
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color:hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: inter;
+    font-weight: 600;
+    width: 85%;
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+    top:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+p{
+    font-size: 14px;
+}
+.A{
+    width: 95px;
+    height:95PX;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+}
+h2{
+    position: relative;
+    top: 25px;
+    font-family: inter;
+    font-weight: 700;
+}
+
+.location{
+    position: relative;
+    top: 0;
+    color: hsl(75, 94%, 57%);
+    font-family: inter;
+    font-weight: 600;
+    
+}
+.bio{
+    position: relative;
+    top:5px;
+    font-family: inter;
+    font-weight: 400;
+}
+
+a:hover{
+    background-color : hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%)
+    
+}
+
+@media (min-width:768px){
+    div{
+        width: 320px;
+        height: 580px;
+    }
+    a{
+        width: 85%;
+        height: 45px;
+        position: relative;
+        top: 8px;
+        margin-bottom: 15px;
+    }
+    .bio{
+        top:5px
+    }
+}
+@media (min-width:1024px){
+    div {
+         height: 618px;
+        width: 380px;
+    }
+    .A{
+        TOP: 40PX;
+        width: 85PX;
+        height: 85px;
+    }
+    h2{
+        top:48px
+    }
+    .location{
+        top:24px
+    }
+    .bio {
+        top:24px
+    }
+    a{
+        height: 48px;
+        width: 80%;
+        position: relative;
+        top:32px;
+        margin-bottom: 16px;
+    }
+
+}

@@ -84,7 +84,7 @@ a:hover{
 @media (min-width:375px){
     div {
         width: 80%;
-        max-width: 350px;
+        
     }
 }
 @media (min-width:768px){

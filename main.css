@@ -81,7 +81,12 @@ a:hover{
     color:hsl(0, 0%, 8%)
     
 }
-
+@media (min-width:375px){
+    div {
+        width: 80%;
+        max-width: 350px;
+    }
+}
 @media (min-width:768px){
     div{
         width: 320px;

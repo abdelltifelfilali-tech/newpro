@@ -17,9 +17,7 @@ div{
     align-items: center;
     flex-direction: column;
     border-radius:10px ;
-    width: 320px;
-    height: 580px;
-}
+    
 a{
     color: hsl(0, 0%, 100%);
     text-decoration: none;

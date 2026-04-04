@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* use 8px system  */
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body{
     height: 100vh;
@@ -17,6 +17,7 @@ div{
     align-items: center;
     flex-direction: column;
     border-radius:10px ;
+}
     
 a{
     color: hsl(0, 0%, 100%);
@@ -39,9 +40,6 @@ a{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-
-
 p{
     font-size: 14px;
 }
@@ -77,22 +75,13 @@ h2{
 a:hover{
     background-color : hsl(75, 94%, 57%);
     color:hsl(0, 0%, 8%)
-    
 }
-@media (max-width:375px){
-    div {
-<<<<<<< HEAD
-        width: 90%;
-        max-width: 350px;
-        height: auto;
-=======
-        width: 90vw;
+ @media (max-width:375px){
+    div{
+        width: 80%;
         height: 80vh;
->>>>>>> ae274e352d68d9e49dec8ae25eae6d309efb4327
-        
-        
     }
-}
+ }
 
 @media (min-width:768px){
     div{

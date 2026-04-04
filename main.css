@@ -85,6 +85,7 @@ a:hover{
     div {
         width: 90%;
         max-width: 350px;
+        height: auto;
         
         
     }
